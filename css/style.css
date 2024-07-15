@@ -12,4 +12,55 @@
 .this-border-radius{
     border-radius: 20px;
 }
-
+.glassy-background{
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    /* -webkit-backdrop-filter: blur(5px); */
+}
+.size-transition{
+    transition-duration: 0.5s;
+}
+.size-transition:hover{
+    scale: 1.2;
+}
+.btn{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn:hover{
+    scale: 1.1;
+    border-radius: 20px;
+    box-shadow:0px 0px 3px 3px rgba(0, 0, 0, 0.1)
+}
+.card{
+    border-radius: 20px;
+}
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.list-group{
+    border-radius: 20px;
+}
+.navbar-button-background{
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.navbar-button-background:hover{
+    border: 1.5px solid black;
+    /* box-shadow: 0px 0px 1px 1px black; */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+.fixed-navbar-to-top{
+    overflow: top;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+body{
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
