@@ -1,5 +1,3 @@
 #W3schools Practice 2 
-Hello world repository for Git Tutorial
-This is an example repository for the Git tutorial on https://www.w3schools.com
-
-This repository is built step by step in the tutorial.
+This is a dummy project and in this project I implemented the frontend of the project
+In next project I want to connect this frontend to its backend
